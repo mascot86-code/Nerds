@@ -362,7 +362,7 @@ input[type='checkbox']:hover {
 
 .price {
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     color: var(--black);
@@ -371,7 +371,7 @@ input[type='checkbox']:hover {
 
 .type {
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
@@ -380,7 +380,7 @@ input[type='checkbox']:hover {
 
 .name {
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     text-transform: uppercase;
@@ -524,10 +524,11 @@ input[type='checkbox']:hover {
 .product-info-text {
     text-align: center;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 49px;
+    color: var(--dark-gray)
 }
 
 .info-btn {
