@@ -437,6 +437,8 @@ input[type='checkbox']:hover {
 
 .product-header {
     height: 48px;
+    margin-left: -1px;
+    margin-top: -1px;
     background-color: var(--dark);
     border-radius: 4px 4px 0 0;
     display: flex;
@@ -486,6 +488,7 @@ input[type='checkbox']:hover {
 
 .product-img img {
     width: 361px;
+    margin-left: -1px;
     margin-bottom: -5px;
     border-radius: 0 0 4px 4px;
 }
@@ -494,6 +497,7 @@ input[type='checkbox']:hover {
     width: 202px;
     height: 231px;
     background-color: var(--gray);
+    margin-left: -1px;
     position: absolute;
     bottom: -2px;
     z-index: 120;
