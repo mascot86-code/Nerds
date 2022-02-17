@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nerds-Shop</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/catalog.css">
+</head>
+<body>
+
+<div class="header-catalog">
+    <div class="container">
+        <div class="main-header">
+            <div class="main-header-inner-content">
+                <div class="logo">
+                    <a href="index.html"><img src="img/nerds-logo.svg" alt="main logo"></a>
+                </div>
+                <div class="nav">
+                    <div class="nav-menu">
+                        <ul class="nav-menu-items">
+                            <li class="nav-menu-item"><a class="nav-menu-item-link" href="index.html">Студия</a></li>
+                            <li class="nav-menu-item"><a class="nav-menu-item-link" href="#">Клиенты</a></li>
+                            <li class="nav-menu-item"><a class="nav-menu-item-link" href="#">Магазин</a></li>
+                            <li class="nav-menu-item"><a class="nav-menu-item-link" href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                        class="cart"><a class="cart-link" href="#"><img src="img/cart-icon.svg"
+                                                                        alt="Cart icon">Корзина
+                </a></div>
+            </div>
+        </div>
+        <div class="catalog-title">
+            Магазин готовых шаблонов
+        </div>
+    </div>
+</div>
+
+<div class="catalog">
+    <div class="container">
+        <div class="catalog-content">
+            <div class="filters">
+                <div class="filter-header">
+                    Стоимость:
+                </div>
+                <div class="cost-range-filter">
+                    <div class="range-filter">
+                        <div class="range-controls">
+                            <div class="scale">
+                                <div class="bar"></div>
+                            </div>
+                            <div class="toggle toggle-min" tabindex="0"></div>
+                            <div class="toggle toggle-max" tabindex="0"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cost-values">
+                    <div class="value-1">
+                        <div class="start-value">от</div>
+                        <div class="value">0</div>
+                    </div>
+                    <div class="value-2">
+                        <div class="end-value">до</div>
+                        <div class="value">150 000</div>
+                    </div>
+                </div>
+                <div class="grid-header">
+                    Сетка:
+                </div>
+                <div class="radio-btn">
+                    <div id="adaptive" class="adaptive"><input type="radio" name="radio" checked><label
+                            class="radio-label"
+                            for="adaptive">Адаптивная</label></div>
+
+                    <div id="fix" class="fix"><input type="radio" name="radio"><label class="radio-label"
+                                                                                      for="fix">Фиксированная
+                    </label></div>
+
+                    <div id="response" class="response"><input type="radio" name="radio"><label class="radio-label"
+                                                                                                for="response">Резиновая
+                    </label></div>
+                </div>
+                <div class="feature-header">
+                    Особенности:
+                </div>
+                <div class="checkbox-btn">
+                    <div class="slider-block">
+                        <input id="slider" type="checkbox" checked>
+                        <label class="checkbox-label" for="slider">Слайдер</label>
+                    </div>
+
+                    <div class="features-block">
+                        <input id="features" type="checkbox">
+                        <label class="checkbox-label" for="features">Блок преимуществ</label>
+                    </div>
+
+                    <div class="news-block">
+                        <input id="news" type="checkbox" checked>
+                        <label class="checkbox-label" for="news">Новости</label>
+                    </div>
+                    <div class="gallery-block">
+                        <input id="gallery" type="checkbox">
+                        <label class="checkbox-label" for="gallery">Галерея</label>
+                    </div>
+
+                    <div class="cart-block">
+                        <input id="cart" type="checkbox">
+                        <label class="checkbox-label" for="cart">Корзина</label>
+                    </div>
+                </div>
+                <div class="header-slider-btn">
+                    <button class="filter-btn">ПОКАЗАТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-main-content">
+                <div class="catalog-main-content-inner">
+                    <div class="sort">
+                        Сортировать
+                    </div>
+                    <div class="sort-type">
+                        <div class="price sort-item"><a class="sort-link active-link" href="#">По цене</a></div>
+                        <div class="type sort-item"><a class="sort-link" href="#">По типу</a></div>
+                        <div class="name sort-item"><a class="sort-link" href="#">По названию</a></div>
+                        <div class="sort-arrows sort-item">
+                            <img class="arrow-dark" src="img/icon-down-dir.png" alt="Down">
+                            <img class="arrow-white" src="img/icon-up-dir.png" alt="Up">
+                        </div>
+                    </div>
+                </div>
+                <div class="products">
+                    <div class="products-inner">
+                        <div class="product active" data-name="Sedona">
+                            <div class="product-header">
+                                <div class="circle one"></div>
+                                <div class="circle two"></div>
+                                <div class="circle three"></div>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/sedona.png" alt="Sedona">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info-header">
+                                    Sedona
+                                </div>
+                                <div class="product-info-text">
+                                    Информационный сайт для туристов
+                                </div>
+                                <div class="product-info-btn">
+                                    <button class="info-btn">9 900 ₽</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" data-name="Pink">
+                            <div class="product-header gray">
+                                <div class="circle one"></div>
+                                <div class="circle two"></div>
+                                <div class="circle three"></div>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/pink.png" alt="Pink">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info-header">
+                                    Pink APP
+                                </div>
+                                <div class="product-info-text">
+                                    Продуктовый лендинг приложения для iOS и Android
+                                </div>
+                                <div class="product-info-btn">
+                                    <button class="info-btn">9 900 ₽</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product" data-name="Barbershop">
+                            <div class="product-header gray">
+                                <div class="circle one"></div>
+                                <div class="circle two"></div>
+                                <div class="circle three"></div>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/barbershop.png" alt="Barbershop">
+                            </div>
+                        </div>
+                        <div class="product" data-name="Mishka">
+                            <div class="product-header gray">
+                                <div class="circle one"></div>
+                                <div class="circle two"></div>
+                                <div class="circle three"></div>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/mishka.png" alt="Mishka">
+                            </div>
+                        </div>
+                        <div class="product" data-name="Aplus">
+                            <div class="product-header gray">
+                                <div class="circle one"></div>
+                                <div class="circle two"></div>
+                                <div class="circle three"></div>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/aplus.png" alt="Aplus">
+                            </div>
+                        </div>
+                        <div class="product" data-name="Kvast">
+                            <div class="product-header gray">
+                                <div class="circle one"></div>
+                                <div class="circle two"></div>
+                                <div class="circle three"></div>
+                            </div>
+                            <div class="product-img">
+                                <img src="img/kvast.png" alt="Kvast">
+                            </div>
+                            <div class="product-info">
+                                <div class="product-info-header">
+                                    Kvast
+                                </div>
+                                <div class="product-info-text">
+                                    Промо-сайт производителя крафтового кваса
+                                </div>
+                                <div class="product-info-btn">
+                                    <button class="info-btn">9 900 ₽</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pagination">
+                    <button class="pagination-btn btn-small active-btn">1</button>
+                    <button class="pagination-btn btn-small">2</button>
+                    <button class="pagination-btn btn-small">3</button>
+                    <button class="pagination-btn btn-next">Следующая</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="contacts">
+    <div class="container">
+        <div class="contacts-inner">
+            <div class="contacts-form">
+                <div class="contacts-form-title">
+                    NЁRDS DESIGN STUDIO
+                </div>
+                <div class="contacts-form-text">
+                    наб. Реки Карповки, <br> 5 лит П, Санкт-Петербург
+                </div>
+                <div class="contact-form-tel">
+                    <a href="tel:+78005558628">+7 800 555-86-28</a>
+                </div>
+                <div class="contact-form-btn">
+                    <button class="red-form-btn btn">Напишите нам</button>
+                </div>
+            </div>
+            <div class="map-marker">
+                <img src="img/marker.png" alt="Map marker">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="social-icons">
+                <div class="social vk"><a href="#"></a></div>
+                <div class="social fb"><a href="#"></a></div>
+                <div class="social inst"><a href="#"></a></div>
+            </div>
+            <div class="discount">
+                <div class="discount-text">
+                    Давайте дружить, это выгодно!
+                </div>
+                <div class="discount-percent">
+                    Скидка 10% для друзей из социальных сетей.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal">
+    <div class="container">
+        <div class="modal-inner">
+            <div class="modal-header">
+                <div class="modal-close-btn">✕</div>
+            </div>
+        </div>
+        <div class="form">
+            <div class="modal-title">
+                Напишите нам
+            </div>
+            <div class="form-subheader">
+                Мир никогда не будет прежним после того как увидит ваш сайт!
+            </div>
+            <form action="#" method="post">
+                <div class="form-name">
+                    <span class="label">Ваше имя:</span>
+                    <input type="text" placeholder="Имя и Фамилия" autofocus>
+                </div>
+                <div class="form-email">
+                    <span class="label">Ваше email:</span>
+                    <input type="text" placeholder="email@mail.ru">
+                </div>
+                <div class="form-text">
+                    <span class="label">Текст сообщения:</span>
+                    <textarea name="text" id="comment" cols="67" rows="10"
+                              placeholder="Напишите что-нибудь..."></textarea>
+                </div>
+                <div class="form-btn">
+                    <button type="submit" class="services-btn red btn">Написать нам</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
