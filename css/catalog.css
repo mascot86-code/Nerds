@@ -200,6 +200,16 @@ a:hover {
     left: 70%;
 }
 
+.toggle-dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    background-color: var(--dark-gray);
+}
+
 .value-1 {
     display: flex;
     flex-wrap: wrap;
