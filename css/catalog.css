@@ -290,7 +290,7 @@ input[type='checkbox'] {
     width: 20px;
     height: 20px;
     vertical-align: middle;
-    border-radius: 4px;
+    background-color: var(--red);
 }
 
 input[type='checkbox']:hover {
@@ -825,10 +825,11 @@ input {
     border-radius: 4px;
     padding-left: 10px;
     outline: var(--red);
+    background-color: transparent;
 }
 
 input::placeholder {
-    color: var(--gray);
+    color: var(--black);
 }
 
 input:focus {
@@ -855,10 +856,11 @@ input:focus {
     border-radius: 4px;
     padding: 20px;
     outline: var(--red);
+    background-color: transparent;
 }
 
 .form-text textarea::placeholder {
-    color: var(--gray);
+    color: var(--black);
 }
 
 .form-text textarea:focus {
