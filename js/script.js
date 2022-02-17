@@ -8,4 +8,10 @@ $(document).ready(function () {
 	$('.modal-close-btn').on('click', function () {
 		$('.modal').fadeOut().hide();
 	});
+	
+	$('.slider-btn').on('click', function (e) {
+		e.preventDefault();
+		
+		$('.modal').fadeIn().show();
+	});
 });

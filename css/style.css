@@ -664,3 +664,14 @@ input:focus {
 .form-btn {
     margin-top: 20px;
 }
+
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+body::-webkit-scrollbar-track {
+    background: var(--gray);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--red);
+}

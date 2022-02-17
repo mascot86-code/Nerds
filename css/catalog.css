@@ -842,10 +842,12 @@ input:focus {
     cursor: pointer;
 }
 
-.btn {
-    border-radius: 4px;
+body::-webkit-scrollbar {
+    width: 12px;
 }
-
-.btn:hover {
-    cursor: pointer;
+body::-webkit-scrollbar-track {
+    background: var(--gray);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--red);
 }
