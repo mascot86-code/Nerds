@@ -458,18 +458,30 @@ input[type='checkbox']:hover {
 
 .one {
     background-color: var(--red);
+    -webkit-box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
 }
 
 .two {
     background-color: var(--yellow);
+    -webkit-box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
 }
 
 .three {
     background-color: var(--green);
+    -webkit-box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
 }
 
 .dark-gray {
     background-color: var(--dark-gray);
+    -webkit-box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 7px 8px -5px rgba(34, 60, 80, 0.2);
 }
 
 .product-img img {
