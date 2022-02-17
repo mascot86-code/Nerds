@@ -307,6 +307,10 @@ input[type='checkbox']:hover {
     vertical-align: top;
 }
 
+.disabled {
+    color: var(--dark-gray);
+}
+
 .filter-btn {
     margin-top: 48px;
     width: 260px;
