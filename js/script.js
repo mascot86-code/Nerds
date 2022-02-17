@@ -14,4 +14,10 @@ $(document).ready(function () {
 		
 		$('.modal').fadeIn().show();
 	});
+	
+	$('.services-btn').on('click', function (e) {
+		e.preventDefault();
+		
+		$('.modal').fadeIn().show();
+	});
 });
