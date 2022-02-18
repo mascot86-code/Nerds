@@ -20,4 +20,17 @@ $(document).ready(function () {
 		
 		$('.modal').fadeIn().show();
 	});
+	
+	$(window).on('scroll', function () {
+		if ($(this).scrollTop() > 0) {
+			$('.to-top').fadeIn().show();
+		} else {
+			$('.to-top').fadeOut().hide();
+		}
+	});
+	
+	$('.to-top-inner').on('click', function (e) {
+		e.preventDefault();
+		$('body, html').animate({scrollTop: 0}, 700);
+	});
 });
