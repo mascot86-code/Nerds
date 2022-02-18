@@ -420,14 +420,8 @@ input[type='checkbox']:hover {
 
 .product:hover {
     cursor: pointer;
-    transition-duration: 0.5s;
+    transition-duration: 0.7s;
     margin-left: 0;
-    -webkit-box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.2);
-    -moz-box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.2);
-    box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.2);
-}
-
-.active {
     -webkit-box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.2);
     box-shadow: 0px 5px 8px -3px rgba(34, 60, 80, 0.2);
@@ -508,7 +502,36 @@ input[type='checkbox']:hover {
     padding: 0 80px;
     opacity: 0.98;
     border-radius: 0 0 4px 4px;
+    visibility: hidden;
 }
+
+.product:hover .product-info {
+    visibility: visible;
+    transition-duration: 0.8s;
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
 
 .product-info-header {
     text-align: center;
