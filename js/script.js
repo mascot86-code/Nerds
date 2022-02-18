@@ -20,5 +20,4 @@ $(document).ready(function () {
 		
 		$('.modal').fadeIn().show();
 	});
-	
 });
